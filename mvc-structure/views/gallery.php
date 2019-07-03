@@ -1,0 +1,1 @@
+<p>There are <?php echo $photos ?> photos in the gallery

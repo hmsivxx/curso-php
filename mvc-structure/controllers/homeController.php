@@ -10,7 +10,7 @@ class homeController extends Controller
             'name'            => 'Jhon',
             'todayTotalSales' => 42
         ];
-        $this->loadView('home', $data);
+        $this->loadTemplate('home', $data);
     }
 
 }

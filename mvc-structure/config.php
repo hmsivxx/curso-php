@@ -2,6 +2,7 @@
 
 global $conn;
 try {
+    define("BASE_URL", "http://localhost/curso-php/mvc-structure/");
     $dbUser = 'hms';
     $dbPass = 'password';
     $dbConfig = "mysql:dbname=firstDb;host=Localhost";
