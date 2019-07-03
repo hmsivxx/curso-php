@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+}
+
+header .top-bar {
+  height: 30px;
+  background-color: #333;
+}
+
+header .container-top-bar {
+  width: 100%;
+  max-width: 1024px;
+  height: 30px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header .top-bar-left {
+  width: 50%;
+  height: 30px;
+  float: left;
+}
+
+header .top-bar-right {
+  width: 50%;
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav.top-bar-nav a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  padding: 0 10px;
+  line-height: 30px;
+  color: #fff;
+}
+
+header .top-bar-right img {
+  margin-top: 2px;
+  padding: 0 2px;
+}
+
+header .top-bar-right input {
+  height: 22px;
+  margin: 0 2px;
+}
+
+header .banner {
+  height: 106px;
+  color: #000;
+}
+
+header .container-banner {
+  width: 100%;
+  max-width: 1024px;
+  height: 105px;
+  margin: 5px auto;
+  align-items: center;
+  display: flex;
+}
+
+header .banner-logo img {
+  padding: 10px 0px;
+}
+
+header .banner-right {
+  text-align: center;
+  width: 100%;
+  max-width: 720px;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  background-color: #F00;
+}
+
+header .banner-right h2 {
+  font-size: 2.3rem;
+}
+
+header .menu {
+  height: 40px;
+  background-color: #F00;
+  margin: 0;
+}
+
+header .container-menu {
+  width: 100%;
+  max-width: 1024px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px auto;
+  align-items: center;
+  display: flex;
+
+}
+
+header .container-menu .menu-items ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .container-menu .menu-items ul li {
+  float: left;
+  list-style: none;
+  padding: 0 15px;
+}
+
+header .container-menu .menu-items ul li i {
+  margin-top: 5px;
+  color: #fff;
+}
+
+
+header .container-menu .menu-items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .container-menu .menu-items .sub-menu-enter {
+  position: absolute;
+  width: 130px;
+  background-color: #F00;
+  display: none;
+}
+
+header .container-menu .menu-items li:hover .sub-menu-enter {
+  display: block;
+}
+
+header .container-menu .menu-items .sub-menu-sports {
+  position: absolute;
+  width: 130px;
+  background-color: #F00;
+  display: none;
+}
+
+header .container-menu .menu-items li:hover .sub-menu-sports {
+  display: block;
+}
+
+header .container-menu .menu-items .sub-menu-news {
+  position: absolute;
+  width: 130px;
+  background-color: #F00;
+  display: none;
+  transition: all 1s linear;
+}
+
+header .container-menu .menu-items li:hover .sub-menu-news {
+  display: block;
+  transition: all 1s linear;
+}
+
+header .container-menu a .sub-menu-item {
+  color: #fff;
+  border-bottom: 1px solid white;
+  padding: 0 15px;
+  border-top: 1px solid white;
+}
+
+header .container-menu a .sub-menu-item:hover {
+  background-color: #FF5555;
+}
+
+section .last-news {
+  height: 30px;
+  color: #000;
+}
+
+section .container-last-news {
+  width: 100%;
+  max-width: 1024px;
+  height: 30px;
+  margin: 12px auto;
+  border: 1px solid black;
+}
+
+section .container-last-news .last-new-title {
+  background-color: #FF0000;
+  height: 30px;
+  display: inline-block;
+  padding: 5px 17px;
+  color: #FFF;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+}
+
+section .container-last-news .last-new-desc {
+  display: inline-block;
+  color: #000;
+  box-sizing: border-box;
+  padding: 4px 15px;
+}
+
+section .main {
+  height: 600px;
+  color: #000;
+}
+
+section .container-main {
+  width: 100%;
+  max-width: 1024px;
+  margin: 12px auto;
+}
+
+section .main-left {
+  float: left;
+  height: 600px;
+  width: 750px;
+  background-color: #fff;
+}
+
+section .main-right {
+  float: right;
+  height: 1600px;
+  width: 250px;
+  background-color: #fff;
+}
+
+
+section .main-left .slide-show {
+  height: 335px;
+  background-color: #ddd;
+  overflow: hidden;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.6);
+}
+section .main-left .slide-show .slide-icon {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+}
+
+section .main-left .slide-show .slide-icon .icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: rgba(255,255,255,.6);
+  border-radius: 10px;
+}
+
+
+
+section .main-left .slide-show .slide-show-area {
+  height: 335px;
+  width: 10000px;
+  transition: all 1s;
+}
+
+
+
+section .main-left .slide-show .slide-show-area .slide {
+  height: 335px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section .main-left .slide-show .slide-show-area .slide .slide-info {
+  height: 70px;
+  margin-top: 265px;
+  background-color: rgba(255,255,255,.4);
+}
+
+section .main-left .slide-show .slide-show-area .slide .slide-info .slide-info-title {
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px 5px;
+}
+
+section .main-left .slide-show .slide-show-area .slide .slide-info .slide-info-subtitle {
+  font-size: 13px;
+  color: #FFF;
+  padding: 0px 5px;
+}
+
+section .main-left .news-content {
+  width: 750px;
+  height: 470px;
+  background-color: #FFF;
+  box-shadow: 2px 3px 15px rgba(0,0,0,.5);
+  z-index: 1;
+  margin-top: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+section .main-left .news-content .news-title {
+  color: #888;
+  font-size: 12px;
+  background-color: #edd;
+  border-bottom: 1px solid #bbb;
+  padding: 5px;
+}
+
+section .main-left .news-content .news-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+section .main-left .news-content .news-wrap .main-news {
+  width: 430px;
+  height: 420px;
+}
+
+section .main-left .news-content .news-wrap .main-news img {
+  padding: 10px 0 0 10px;
+}
+
+section .main-left .news-content .news-wrap .main-news h2 {
+  padding: 5px 5px 0 5px;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+section .main-left .news-content .news-wrap .main-news span {
+  font-size: 8px;
+  padding: 0 10px;
+}
+
+section .main-left .news-content .news-wrap .main-news p {
+  font-size: 15px;
+  padding: 5px;
+  margin-top: -5px;
+}
+
+section .main-left .news-content .news-wrap .right-news {
+  float: right;
+  width: 330px;
+  margin-top: 15px;
+}
+
+
+section .main-left .news-content .news-wrap .right-news .small-news {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+section .main-left .news-content .news-wrap .right-news .small-news .small-news-right p {
+  font-size: 14px;
+  padding: 4px 0 0px 10px;
+  box-sizing: border-box;
+}
+
+section .main-left .news-content .news-wrap .right-news .small-news .small-news-right span {
+  font-size: 6px;
+  padding: 0 0 6px 10px;
+}
+
+
+
+
+
+
+
+section .main-right .widget-social {
+  width: 250px;
+  height: 75px;
+  background-color: #FFF;
+  box-shadow: 2px 3px 15px rgba(0,0,0,.5);
+  z-index: 1;
+  border: 1px solid black;
+}
+
+section .main-right .widget-social .social-title {
+  color: #888;
+  font-size: 12px;
+  background-color: #edd;
+  border-bottom: 1px solid #bbb;
+  padding: 5px;
+}
+
+section .main-right .widget-social .social-icons {
+  padding: 10px 5px;
+}
+
+
+
+section .main-right .widget-last-news {
+  width: 250px;
+  height: 450px;
+  margin-top: 15px;
+  box-shadow: 2px 3px 15px rgba(0,0,0,.5);
+  background-color: #FFF;
+  z-index: 1;
+  border: 1px solid black;
+}
+
+section .main-right .widget-last-news .last-news-title {
+  color: #888;
+  font-size: 12px;
+  background-color: #edd;
+  border-bottom: 1px solid #bbb;
+  padding: 5px;
+}
+
+section .main-right .widget-last-news .last-news-body {
+  padding: 15px 10px;
+}
+
+section .main-right .widget-last-news .last-news-body a {
+  color: #000;
+}
+
+section .main-right .widget-last-news .last-news-body hr {
+  margin: 6px 0;
+}
+
+
+
+section .main-right .widget-ad {
+  width: 250px;
+  height: 300px;
+  background-color: #FFF;
+  margin-top: 15px;
+  box-shadow: 2px 3px 15px rgba(0,0,0,.5);
+  z-index: 1;
+  border: 1px solid black;
+}
+
+section .main-right .widget-ad .ad-title {
+  color: #888;
+  font-size: 12px;
+  background-color: #edd;
+  border-bottom: 1px solid #bbb;
+  padding: 5px;
+}
+
+section .main-right .widget-ad .ad-image {
+  padding: 10px 5px;
+}
+
+
+
+section .main-right .widget-fb {
+  width: 250px;
+  height: 180px;
+  background-color: #FFF;
+  margin-top: 15px;
+  box-shadow: 2px 3px 15px rgba(0,0,0,.5);
+  z-index: 1;
+  border: 1px solid black;
+}
+
+section .main-right .widget-fb .fb-title {
+  color: #888;
+  font-size: 12px;
+  background-color: #edd;
+  border-bottom: 1px solid #bbb;
+  padding: 5px;
+}
+
+section .main-right .widget-fb .fb-body {
+  padding: 10px 0;
+}

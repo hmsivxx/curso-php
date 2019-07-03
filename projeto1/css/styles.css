@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: #333232;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+div.header-container {
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 50px;
+}
+
+div.logo {
+  height: 50px;
+  color: #ffffff;
+  font-size: 1.45rem;
+  text-align: center;
+  align-self: center;
+}
+
+div.menu ul{
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.menu ul {
+  height: 50px;
+  width: 500px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+
+}
+
+.menu ul li {
+  height: 50px;
+  padding: 0 20px;
+  align-self: center;
+}
+
+.menu ul li a {
+  height: 50px;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-self: center;
+  align-items: center;
+}
+
+.menu ul li:hover {
+  background-color: #347aba;
+  height: 50px;
+}
+
+section.hero {
+  height: 300px;
+  background-color: #347aba;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero-container {
+  height: 300px;
+  background-color: #347aba;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero-left {
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.hero-left h2 {
+  padding-bottom: 10px;
+  font-size: 3.5rem;
+  letter-spacing: 8px;
+  font-weight: bold;
+}
+
+.hero-left p {
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.hero-left .btn-search {
+  width: 280px;
+  height: 60px;
+  background-color: #ffc001;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.main-container h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin: 25px;
+}
+
+.main-container img {
+  padding: 0 11px 30px 11px;
+}
+
+footer {
+  height: 40px;
+  background-color: #347aba;
+  color: #ffffff;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: auto 0;
+  line-height: 40px;
+}
