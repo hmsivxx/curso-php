@@ -1,0 +1,12 @@
+.nav-item .nav-link{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-wrapper {
+    width: 150px;
+    height: 200px;
+}
+.image-wrapper img {
+    width: 150px;
+}

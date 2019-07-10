@@ -5,10 +5,13 @@ class homeController extends Controller
 
     public function index()
     {
+        $offers = new Offers();
+        $user = new User('Hermes');
+        
         $data = [
-            'offersQuantity'  => 420,
-            'name'            => 'Jhon',
-            'todayTotalSales' => 42
+            'offersQuantity'  => $offers->getQuantity(),
+            'name'            => $user->getName(),
+            'todayTotalSales' => $offers->getTotalSales()
         ];
         $this->loadTemplate('home', $data);
     }
