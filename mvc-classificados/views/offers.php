@@ -17,17 +17,15 @@
             </tr>
         </thead>
         <?php foreach($id as $k => $item): ?>
-        <tr>
-            <td><img src="<?php echo BASE_URL; ?>assets/images/offers/<?php echo $url[$k]; ?>" height="50"></td>
-            <td><?php echo $title[$k]; ?></td>
-            <td>$ <?php echo number_format($price[$k], 2); ?></td>
-            <td>
-                <a href="edit-offer.php?id=<?php echo $id[$k] ?>" class="btn btn-primary">Edit</a>
-                <a href="delete-offer.php?id=<?php echo $id[$k] ?>" class="btn btn-danger">Deletee</a>
-            </td>
-        </tr>
-    <?php endforeach; ?>
+            <tr>
+                <td><img src="<?php echo BASE_URL; ?>assets/images/offers/<?php echo $url[$k]; ?>" height="50"></td>
+                <td><?php echo $title[$k]; ?></td>
+                <td>$ <?php echo number_format($price[$k], 2); ?></td>
+                <td>
+                    <a href="edit-offer.php?id=<?php echo $id[$k] ?>" class="btn btn-primary">Edit</a>
+                    <a href="delete-offer.php?id=<?php echo $id[$k] ?>" class="btn btn-danger">Deletee</a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
     </table>
 </div>
-
-http://localhost/curso-php/mvc-classificados/assets/images/offers/
